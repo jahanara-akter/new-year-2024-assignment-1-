@@ -1,0 +1,156 @@
+/* =============================== common css part start here ==================================== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* =============================== common css part end here ==================================== */
+/* =============================== banner part start here ======================================= */
+header .banner {
+    border-radius: 16px;
+    background-image: url(../images/gradient.png), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 140px 120px;
+}
+
+header .banner .main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header .banner .text {
+    padding: 177px 344px;
+}
+
+header .banner .text h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+header .banner .text h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+}
+
+/* =============================== banner part end here ======================================= */
+/* =============================== catagories part start here =================================== */
+#catagories h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+#catagories h2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+#catagories h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+#catagories .image {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+/* =============================== catagories part end here ======================================= */
+/* =============================== party part start here ======================================== */
+#midnight-party .container {
+    background-image: url(../images/midnight-party.png), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 140px 120px;
+}
+
+#midnight-party .container .text {
+    padding: 126px 0 142px 126px;
+}
+
+#midnight-party .container h4 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    margin-bottom: 24px;
+}
+
+#midnight-party .container p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    margin-bottom: 48px;
+}
+
+#midnight-party .container a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#midnight-party .details {
+    background-image: url(../images/details-gradiant.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 140px 120px;
+}
+
+#midnight-party .details p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+/* =============================== party part end here ========================================== */

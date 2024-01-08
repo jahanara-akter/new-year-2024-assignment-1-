@@ -95,6 +95,13 @@ header .banner .text h1 {
     background-size: cover;
     background-position: center;
     margin: 0px 140px 120px;
+    display: flex;
+    justify-content: center;
+    column-gap: 39px;
+}
+
+#midnight-party .container img {
+    padding: 68px 138px 67px 0;
 }
 
 #midnight-party .container .text {
@@ -247,10 +254,11 @@ header .banner .text h1 {
 
 /* =============================  best  offer part end here ==================================  */
 /* =============================== holidays part start here ======================================= */
-#holidays-part{
+#holidays-part {
     text-align: center;
- margin: 0 266px 120px;
+    margin: 0 266px 120px;
 }
+
 #holidays-part h3 {
     color: #070211;
     font-family: Inter;
@@ -285,4 +293,210 @@ header .banner .text h1 {
     line-height: 32px;
 }
 
+#holidays-part .discount-part {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#holidays-part .discount-part .btn {
+    position: absolute;
+    margin: 90px 0px 0px 467px;
+}
+
 /* =============================== holidays part end here ======================================= */
+/* =============================== portfolio part start here ==================================== */
+#portfolio-part {
+    margin-left: 140px;
+    margin-bottom: 120px;
+}
+
+#portfolio-part .container {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio-part h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+#portfolio-part h5 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+#portfolio-part p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+    width: 896px;
+}
+
+#portfolio-part .image-container .image-part-one {
+    margin-bottom: 24px;
+}
+
+#portfolio-part .image-container .image-part-one img {
+    margin-right: 24px;
+}
+
+#portfolio-part .image-container .image-part-two img {
+    margin-right: 24px;
+}
+
+/* =============================== portfolio part end here ==================================== */
+/* =============================== newsletter part start here ==================================== */
+#newsletter-part .main {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 212px 80px;
+    margin: 0 140px 120px;
+}
+
+#newsletter-part .main .img {
+    text-align: center;
+}
+
+#newsletter-part .main h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+#newsletter-part .main p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+#newsletter-part .main .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#newsletter-part .main .input-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    background: #FFF;
+    width: 648px;
+    text-align: center;
+}
+
+#newsletter-part .main .input-btn input {
+    border: 0;
+    outline: 0;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#newsletter-part .main .input-btn button {
+    border-radius: 0 50px 50px 0;
+    background: #F00;
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 24px 56px;
+}
+
+/* =============================== newsletter part end here ==================================== */
+/* ===============================footer part start here ====================================== */
+footer {
+    background: #070211;
+    padding: 120px 275px 120px 140px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+footer .container .address p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .container .phone-email i {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+    margin-right: 16px;
+}
+
+footer .container .phone-email p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+footer .icon {
+    text-align: center;
+    margin: 48px 0;
+}
+
+footer .last-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+footer .last-part p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* ===============================footer part end here ======================================= */

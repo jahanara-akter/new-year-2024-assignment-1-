@@ -348,7 +348,11 @@ header .banner .text h1 {
     margin-bottom: 48px;
     width: 896px;
 }
+#portfolio-part .image-container img:hover{
+    border: 2px solid red;
+    transition: all linear 0.4s;
 
+}
 #portfolio-part .image-container .image-part-one {
     margin-bottom: 24px;
 }
@@ -479,6 +483,7 @@ footer .container .phone-email p {
     font-weight: 500;
     line-height: 40px;
 }
+
 footer .icon {
     text-align: center;
     margin: 48px 0;
